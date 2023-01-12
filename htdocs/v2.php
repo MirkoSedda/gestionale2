@@ -83,7 +83,7 @@
                                 Codice Fiscale
                             </label> 
                             </br>
-                            <input value="" type="text" autocomplete minlength="16" maxlength="16" class="form-control" id="codice_fiscale" aria-describedby="codiceFiscaleHelp" placeholder="Inserire codice fiscale" name="codice_fiscale" required>
+                            <input type="text" autocomplete minlength="16" maxlength="16" class="form-control" id="codice_fiscale" aria-describedby="codiceFiscaleHelp" placeholder="Inserire codice fiscale" name="codice_fiscale" required>
                             <span id="checkCodiceFiscale" class="text-danger">Inserire codice fiscale corretto.</span>
                         </div>
                         <button type="button" class="btn btn-primary" id="btnSubmit" disabled>Salva</button>
